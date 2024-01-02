@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/*===fontes===*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/*===cores===*/
+
+:root {
+    --cor--principal--: #DB6900;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    height: 3000px;
+    background-color: #010307;
+    position: relative;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.btn-menu {
+    width: 48px;
+    cursor: pointer;
+}
+
+.btn-menu ul {
+    padding: 5px;
+}
+
+.btn-menu li{
+    width: 28px;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.25);
+    margin: 5px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.frase-a {
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+}
+
+.frase-a h1{
+    color: #CECECE;
+    font-size: 20px;
+}
+
+.frase-a strong{
+    color: var(--cor--principal--);
+    font-size: 22px;
+}
+
+#pesquisa-A {
+    width: 90%;
+    height: 50px;
+    background-color: #070C16;
+    padding: 15px;
+    stroke: transparent;
+    border-radius: 5px;
+}
+#pesquisa-A::placeholder {
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.opcoes {
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.opc-a {
+    background-color: #010307;
+    color: rgba(206, 206, 206, 0.25);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.opc-a:hover {
+    background-color: rgba(219, 106, 0, 0.3);
+    color: var(--cor--principal--);
+    transition: 0.5s;
+}
